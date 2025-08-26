@@ -1,6 +1,9 @@
-
-export default function Home() {
+export default function RootLayout(props: { children: React.ReactNode }) {
+  const { children } = props
   return (
-    <div>Homepage</div>
-  );
+    <>
+      <div>{children}</div>
+    </>
+  )
 }
+
