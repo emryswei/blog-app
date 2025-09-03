@@ -1,17 +1,14 @@
 import Link from "next/link";
-import { inter, lusitana } from "@/app/ui/fonts";
+import { inter } from "@/app/ui/fonts";
 import AcmeLogo from "@/app/ui/acme-logo";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
-import SideBar from "@/components/SideBar";
 import Image from "next/image";
 
-export default function RootLayout(props: { children: React.ReactNode }) {
-  const { children } = props;
+export default function HomePage() {
   return (
     <div
       className={`flex flex-col gap-[8px] min-h-screen min-w-screen ${inter.className} antialiased`}
     >
-      {children}
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
         <AcmeLogo />
       </div>
