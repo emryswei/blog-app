@@ -46,9 +46,9 @@ const navItems: NavItem[] = [
     label: "Count",
   },
   {
-    href: "/items/picture",
+    href: "/items/chat",
     icon: PicCute,
-    alt: "picture icon preview",
+    alt: "chat icon preview",
     label: "Count",
   },
   {
